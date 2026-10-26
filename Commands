@@ -1,0 +1,59 @@
+1. git init 
+   {used to initialize the directory. Ye ek hidden folder of .git ka bana deta hai jisme saare ke saare changes store hote hai. This is basically the domain in which git rules and control}
+
+2. git status
+   {Ye check karega ki saari jo cheeze hai usse check karne ki permission hai ya nahi or we can say vo uss domain me aat hai ya nahi}
+
+3. git add <.>, <file name1>, <file name2> 
+   {Ye command basically jo bhi cheeze hoti hai usse STAGING AREA yani uss domain me le ata hai. Isme agar aap "." daaloge then all the files will be added to the staging area and agar individually dalni hai ek ya do then just add the name space then name...}
+
+4. git auth login
+   {as the name suggest for login}
+
+5. git remote <-v> <add origin>
+   {Creates a link between hamare device ki repo and local repo>
+5.a) git remote -v
+     {link dikhayega abhi ke repo ki}
+5.b) git remote add origin url
+     {solidify the path from mac ki repositary to github ya kisi bhi local repo ki repositary ki}
+
+6. git fetch
+   {saari cheeze check karega from local repo and info download bhi karega but merge nahi karega.}
+
+7. git pull
+   {just like git fetch ye bhi check kare but it will merge to}
+
+8. git push 
+   {ye saare changes daal dekga local repo me. but first time me cheeze set nahi hoti hai to uske liye bari command likhni hoti hai which is 
+    git push -u origin main}
+
+9. git clone
+   {ek existing repo ko puri tarike se clone karke download kardeta hai and automatically remote origin set bhi kar deta hai}
+
+10. git commit -m "message"
+    {naming the version snapshot jo hamne store kiya hai}
+
+11. git branch
+    {list all the local branches}
+
+12. git switch main
+    {switch to the branch main}
+
+13. git switch -c naam
+    {isse nayi branch banegi naam naam se and uspar ham switch bhi karenge and agar chahte hai ki sirf bransh create ho and switch no ho then git branch naam}
+
+14. git diff
+    {shows all the uunstaged differance}
+
+15. git log  
+    {shows the commit history}
+
+16. git log --oneline 
+    {shorter version of the history}
+
+17. git diff --stage
+    {sirf staging area me changes dikhata hai}
+
+
+18. log show
+    {shows al the log of the computer.
